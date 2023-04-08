@@ -2,6 +2,9 @@
 @import "./header.css";
 @import "./button-icon.css";
 @import "./hero.css";
+@import "./wrapper.css";
+/*@import "./contenedor-button.css";*/
+
 
 
 
@@ -27,9 +30,12 @@ body {
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--purple);
+    margin: 0;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    block-size: 80px;
 }
